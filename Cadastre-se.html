@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="pwa-chrome">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!--link rel="stylesheet" href="reset2.css"-->
+        <!--link rel="stylesheet" href="EconoMy.css"-->
+        <link href="./css/EconoMy.css" rel="stylesheet" type="text/css"/>
+    </head>
+<body id="pg2">
+    <main>
+        <header></header>
+            <!--Componentes do cabeçalho-->
+        <div id="layout">
+            <div>
+                <img class="Logo">
+                <a href="./EconoMy2.html"><img src="./img/Logo.png" class="Logo" alt="EconoMy"></a>
+            </div>
+                <br>
+                <br>
+                <h1> <Cadastre-se:</h1>
+                <input type="text" id="Nome" name="nome" value="" placeholder="Nome">
+                <input type="text" id="Sobrenome" name="sobrenome" value="" placeholder="Sobrenome">
+                <br>
+                <br>
+                <input type="text" id="Celular" name="celular" value="" placeholder="Celular">
+                <input type="text" id="Senha" name="senha" value="" placeholder="Senha">
+                <br>
+                <br>
+                <label style="font-family: arial, bold; font-size: 15px; color: yellow;" for="date_nasc" id="data_nasc"> Data de nascimento: </label>
+                <br>
+                <input type="date" id="nascimento" name="nascimento" min="1900-01-01" max="">
+                <br>
+                <label style="font-family: arial, bold; font-size: 15px; color: yellow;" for="lbl_genero" id="lbl_genero">Gênero: </label>
+                <br>
+                <select name="list" onChange="combo(this, box)">
+
+                    <option>Masculino</option>
+        
+                    <option>Feminino</option>
+        
+                    <option>Personalizado</option>
+        
+                    </select>
+
+                </label>
+                <br>
+                <br>
+                <input type="submit" id="button2" value="Cadastrar">
+            </div>
+            
+            <div>
+        
+                       <br>
+                       <br>
+            </div>
+        </div>
+
+</body>
+</html>

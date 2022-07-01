@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #393737 
+}
+
+
+#pg2{
+    background-color: #393737
+}
+
+#Logo2{
+width: 500px;
+
+}
+
+#layout
+{
+margin-left: center;
+margin-right: center;
+text-align: center;
+
+}
+
+
+button{
+    width: 100px;
+    height: 30px;
+    border-style: outset;
+    font: bold 15px arial, arial; 
+    text-shadow:none;
+    border-radius: 50px;
+    background-color: gray;
+    color: yellow
+}
+
+#button2{
+    width: 100px;
+    height: 30px;
+    border-style: outset;
+    font: bold 15px arial, arial; 
+    text-shadow:none;
+    border-radius: 50px;
+    background-color: gray;
+    color: yellow
+}
+
+header img{
+    margin-left: auto;
+    margin-right: auto;
+}
